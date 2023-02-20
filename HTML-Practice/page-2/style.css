@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+}
+.row-num {
+  align-self: center;
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+.header {
+  margin-top: 3rem;
+}
+.notification {
+  text-decoration: none;
+  padding: 0 0.4rem;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+  font-size: 1.5rem;
+  color: #3f3e3e;
+}
+
+.notification:hover {
+  background: red;
+}
+
+.notification .badge {
+  font-size: 0.8rem;
+  position: absolute;
+  top: -0.5rem;
+  right: -0.1rem;
+  padding: 2px 5px;
+  border-radius: 50%;
+  background: blue;
+  color: white;
+}
+.header button {
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.6rem 0.8rem;
+  color: white;
+  margin: 1rem 0.4rem 0 0;
+}
+.butn-text {
+  color: black;
+}
+.notification .badge-2 {
+  background: #f438c8;
+}
+.notification .badge-3 {
+  background: red;
+}
+.primary {
+  background-color: #16a0ea;
+}
+.secondary {
+  background-color: #737171;
+}
+.success {
+  background-color: #42d569;
+}
+.danger {
+  background-color: #f32929;
+}
+.warning {
+  background-color: #f5bc12;
+}
+.info {
+  background-color: #08ceed;
+}
+.light {
+  background-color: #e8e1e1;
+}
+.dark {
+  background-color: #010101;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  align-items: baseline;
+  padding: 0.5rem 0.5rem;
+  height: 3.1rem;
+  color: white;
+  background-color: black;
+}
+
+.nav-left {
+  /* width: 25rem; */
+  gap: 2rem;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+.nav-left-link {
+  /* width: 20rem; */
+  display: flex;
+  gap: 1.3rem;
+  /* justify-content: space-between; */
+}
+li {
+  list-style: none;
+}
+.navbar-right {
+  height: 1rem;
+}
+.nav-form {
+  height: 2.1rem;
+  border-radius: 0.3rem;
+  padding-left: 0.5rem;
+  border: none;
+  margin-right: 1rem;
+}
+.nav-btn {
+  border: 1px solid white;
+  border-radius: 0.4rem;
+  padding: 0.4rem 0.8rem;
+  background-color: #010101;
+  color: white;
+}
+.nav-1 .feature {
+  color: grey;
+}
+.nav-2 .feature {
+  color: #bab9b9;
+}
+.nav-3 .feature {
+  color: grey;
+}
+.nav-3 .nav-left {
+  color: black;
+}
+.nav-2 {
+  margin-top: 1.5rem;
+  background-color: blue;
+}
+.nav-2 .nav-btn {
+  background-color: blue;
+}
+.nav-3 {
+  margin-top: 1.5rem;
+  background-color: #bfdce5;
+}
+.nav-3 .nav-btn {
+  background-color: #bfdce5;
+  border-color: blue;
+  color: blue;
+}
+/* compaign */
+.campaign {
+  margin-top: 8rem;
+  margin-left: 8rem;
+  display: flex;
+  align-items: center;
+}
+.line {
+  width: 25%;
+  margin: 0 1rem;
+}
+.line hr {
+  color: #d6d5d5;
+}
+.tick {
+  background-color: blue;
+  padding: 0.2rem 0.5rem;
+  color: white;
+  border-radius: 50%;
+}
+.two {
+  background-color: blue;
+  padding: 0.2rem 0.5rem;
+  color: white;
+  border-radius: 50%;
+}
+.three {
+  background-color: #808080;
+  padding: 0.2rem 0.5rem;
+  color: white;
+  border-radius: 50%;
+}
+.campaign-text {
+  margin-top: 1rem;
+  display: flex;
+  gap: 12.6rem;
+  margin-left: 3.2rem;
+}
+/* 4-timeline */
+.timeline {
+  position: relative;
+}
+.container {
+  position: relative;
+}

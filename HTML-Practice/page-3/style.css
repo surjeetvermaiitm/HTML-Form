@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+}
+.row-num {
+  align-self: center;
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+.first-container {
+  margin-top: 3rem;
+}
+.first-container div {
+  border: 1px solid rgb(216, 214, 214);
+  width: 25rem;
+  /* height: 2.2rem; */
+  border-collapse: collapse;
+  padding: 0.75rem 1rem;
+}
+.first-container .first-item {
+  background-color: blue;
+  color: white;
+}
+/* grid */
+.second-container {
+  margin-top: 3rem;
+  margin-right: 5rem;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+
+  grid-template-areas:
+    "xs-12 xs-12 xs-12 xs-12"
+    "xs-6-1 xs-6-1 xs-6-2 xs-6-2"
+    "xs-3-1 xs-3-2 xs-3-3 xs-3-4";
+}
+.second-container div {
+  border: 1px solid rgb(197, 197, 197);
+  width: 100%;
+  padding: 0.8rem;
+  display: flex;
+  justify-content: center;
+  color: #b2b2b2;
+}
+.xs-12 {
+  grid-area: xs-12;
+}
+.xs-6-1 {
+  grid-area: xs-6-1;
+}
+.xs-6-2 {
+  grid-area: xs-6-2;
+}
+.xs-3-1 {
+  grid-area: xs-3-1;
+}
+.xs-3-2 {
+  grid-area: xs-3-2;
+}
+.xs-3-3 {
+  grid-area: xs-3-3;
+}
+.xs-3-4 {
+  grid-area: xs-3-4;
+}
+/* 3rd container */
